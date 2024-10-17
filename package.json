@@ -1,0 +1,17 @@
+{
+  "name": "backend-projects",
+  "version": "1.0.0",
+  "description": "Chat App with rooms",
+  "main": "server.js",
+  "scripts": {
+     "start": "node server",
+     "dev": "nodemon server"
+  },
+  "author": "Aman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "moment": "^2.30.1",
+    "socket.io": "^4.7.5"
+  }
+}
